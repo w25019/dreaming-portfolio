@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in | Dreaming</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./login-page.css" />
+  </head>
+  <body>
+    <main class="login-page">
+      <section class="login-left">
+        <a href="./index.html" class="back-link">← ホームへ戻る</a>
+        <p class="login-mini">DREAMING SIGN IN</p>
+        <h1>おかえりなさい。</h1>
+        <p class="login-copy">
+          DREAMING は、やさしい世界観とハンドメイドの魅力を届ける
+          ドリームキャッチャーブランドのコンセプトサイトです。
+          サインイン画面も、ブランドの雰囲気に合うように落ち着いたデザインでまとめました。
+        </p>
+
+        <div class="login-points">
+          <div class="login-point">・やさしい色合いで統一したUI</div>
+          <div class="login-point">・パスワード表示切り替え機能</div>
+          <div class="login-point">・Remember me の保存機能</div>
+        </div>
+      </section>
+
+      <section class="login-right">
+        <div class="login-card">
+          <h2>Sign in</h2>
+          <p class="card-copy">登録した情報を入力して、コレクションをチェックしましょう。</p>
+
+          <form id="login-form">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" placeholder="example@email.com" />
+
+            <label for="password">パスワード</label>
+            <div class="password-box">
+              <input type="password" id="password" placeholder="パスワードを入力" />
+              <button type="button" id="toggle-password">表示</button>
+            </div>
+
+            <div class="login-row">
+              <label class="remember-wrap">
+                <input type="checkbox" id="remember" />
+                <span>Remember me</span>
+              </label>
+              <a href="#" class="forgot-password">パスワードを忘れた方</a>
+            </div>
+
+            <button type="submit" class="signin-button">サインイン</button>
+            <p id="login-message"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./login.js"></script>
+  </body>
+</html>

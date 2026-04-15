@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  background:
+    linear-gradient(rgba(33, 28, 51, 0.8), rgba(33, 28, 51, 0.9)),
+    url("./img/halfDream.jpg") center/cover no-repeat;
+  color: white;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* LEFT SIDE */
+.login-left {
+  padding: 60px 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.back-link {
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #eee;
+}
+
+.login-mini {
+  font-size: 14px;
+  color: #cfc9f3;
+  margin-bottom: 10px;
+}
+
+.login-left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.login-copy {
+  line-height: 1.8;
+  margin-bottom: 25px;
+  color: #eee;
+}
+
+.login-point {
+  margin-bottom: 10px;
+}
+
+/* RIGHT SIDE */
+.login-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 7%;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+}
+
+.card-copy {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+#login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* PASSWORD BOX */
+.password-box {
+  display: flex;
+  gap: 10px;
+}
+
+#toggle-password {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #7e759f;
+  color: white;
+  cursor: pointer;
+}
+
+/* ROW */
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.forgot-password {
+  color: #eee;
+  text-decoration: underline;
+}
+
+/* BUTTON */
+.signin-button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #5772ff, #7e759f);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signin-button:hover {
+  transform: translateY(-2px);
+}
+
+#login-message {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+  .login-page {
+    grid-template-columns: 1fr;
+  }
+
+  .login-left {
+    display: none;
+  }
+}

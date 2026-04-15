@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Dreaming</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h4 id="header_dreaming">DREAMING</h4>
+      <div id="header_menu">
+        <a href="./index.html" class="menu">Home</a>
+        <a href="./contact.html" class="menu">Contact</a>
+        <a href="./aboutus.html" class="menu">About</a>
+        <a href="./login-page.html" id="login">Sign in</a>
+      </div>
+    </header>
+    <hr />
+
+    <main>
+      <section class="contact-hero">
+        <p class="contact-mini">CONTACT</p>
+        <h1>お問い合わせ</h1>
+        <p class="contact-intro">
+          商品についてのご質問や、ブランドに関するお問い合わせはこちらからご連絡ください。
+          やさしい気持ちで使っていただけるよう、見やすく落ち着いたデザインを意識しました。
+        </p>
+      </section>
+
+      <section class="contact-part">
+        <div class="contact-leftpart">
+          <h2>メッセージを送る</h2>
+          <p class="form-copy">
+            お名前・メールアドレス・内容を入力して送信してください。
+          </p>
+
+          <form id="contact-form">
+            <div class="contact-input-box">
+              <input type="text" id="name" placeholder="お名前" />
+              <input type="email" id="contact-email" placeholder="メールアドレス" />
+            </div>
+
+            <textarea
+              id="message"
+              rows="8"
+              placeholder="お問い合わせ内容を入力してください"
+            ></textarea>
+
+            <div class="submit">
+              <button type="submit">送信する</button>
+            </div>
+
+            <p id="contact-message"></p>
+          </form>
+        </div>
+
+        <div class="contact-rightpart">
+          <img
+            class="image"
+            src="./img/34314F99-1124-4335-8D93-F1D35167DF70.png"
+            alt="Dreaming contact image"
+          />
+          <div class="image-overlay-text">
+            やさしい夢の世界を、あなたの日常へ。
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer">
+      <h3 id="footer_dreaming">DREAMING</h3>
+      <p id="para2">
+        心が落ち着くデザインと、やさしい世界観を届けるドリームキャッチャーブランドの
+        コンセプトサイトです。
+      </p>
+      <p class="footer-note">© 2026 DREAMING Portfolio Project</p>
+    </div>
+
+    <script src="./contact.js"></script>
+  </body>
+</html>
