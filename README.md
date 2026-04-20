@@ -29,16 +29,24 @@
     <td align="center"><b>About Page</b></td>
   </tr>
   <tr>
-    <td><img src="./home_page.png" width="100%"></td>
-    <td><img src="./about_page.png" width="100%"></td>
+    <td valign="top">
+      <img src="./home_page.png" width="100%">
+    </td>
+    <td valign="top">
+      <img src="./about_page.png" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center"><b>Contact Page</b></td>
     <td align="center"><b>Login Page</b></td>
   </tr>
   <tr>
-    <td><img src="./contact_page.png" width="100%"></td>
-    <td><img src="./login_page.png" width="100%"></td>
+    <td valign="top">
+      <img src="./contact_page.png" width="100%">
+    </td>
+    <td valign="top" align="center">
+      <img src="./login_page.png" width="85%">
+    </td>
   </tr>
 </table>
 
