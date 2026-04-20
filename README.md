@@ -29,11 +29,11 @@
     <td align="center"><b>About Page</b></td>
   </tr>
   <tr>
-    <td valign="top">
-      <img src="./home_page.png" width="100%">
+    <td valign="top" align="center" style="height:300px;">
+      <img src="./home_page.png" style="max-width:100%; max-height:300px;">
     </td>
-    <td valign="top">
-      <img src="./about_page.png" width="100%">
+    <td valign="top" align="center" style="height:300px;">
+      <img src="./about_page.png" style="max-width:100%; max-height:300px;">
     </td>
   </tr>
   <tr>
@@ -41,15 +41,11 @@
     <td align="center"><b>Login Page</b></td>
   </tr>
   <tr>
-    <td valign="top">
-      <img src="./contact_page.png" width="100%">
+    <td valign="top" align="center" style="height:300px;">
+      <img src="./contact_page.png" style="max-width:100%; max-height:300px;">
     </td>
-    <td valign="top" align="center">
-      <img src="./login_page.png" width="85%">
+    <td valign="top" align="center" style="height:300px;">
+      <img src="./login_page.png" style="max-width:100%; max-height:300px;">
     </td>
   </tr>
 </table>
-
-
-
-
