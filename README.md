@@ -1,10 +1,10 @@
 # 🌙 Dreaming Portfolio
 
 ## 🔗 Live Demo
-https://w25019.github.io/dreaming-portfolio/
+[Dreaming Portfolio を見る](https://w25019.github.io/dreaming-portfolio/)
 
 ## 📝 概要
-ドリームキャッチャーをテーマにしたマルチページWebサイトです。
+ドリームキャッチャーをテーマにしたマルチページWebサイトです。  
 落ち着いたデザインと使いやすいUI/UXを意識して制作しました。
 
 ## 🛠 技術スタック
@@ -19,22 +19,28 @@ https://w25019.github.io/dreaming-portfolio/
 ## 🎯 工夫した点
 - シンプルで直感的なナビゲーション設計
 - 色と余白で「落ち着き」を表現
-- JSでユーザー操作のフィードバックを強化
+- JavaScriptでユーザー操作のフィードバックを強化
 
 ## 📸 Screenshots
 
-Home Page
-<img src="./home_page.png" width="45%">
-
-Contact Page
-<img src="./contact_page.png" width="45%">
-
-About Page
-<img src="./about_page.png" width="45%">
-
-Login Page
-<img src="./login_page.png" width="45%">
-
+<table>
+  <tr>
+    <td align="center"><b>Home Page</b></td>
+    <td align="center"><b>Contact Page</b></td>
+  </tr>
+  <tr>
+    <td><img src="./home_page.png" width="100%"></td>
+    <td><img src="./contact_page.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>About Page</b></td>
+    <td align="center"><b>Login Page</b></td>
+  </tr>
+  <tr>
+    <td><img src="./about_page.png" width="100%"></td>
+    <td><img src="./login_page.png" width="100%"></td>
+  </tr>
+</table>
 
 
 
