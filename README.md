@@ -26,7 +26,7 @@ Login Page
 <img src="./login_page.png" width="45%">
 
 Home Page
-
+<img src="./home_page.png" width="45%">
 
 
 
