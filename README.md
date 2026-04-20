@@ -22,11 +22,20 @@ https://w25019.github.io/dreaming-portfolio/
 - JSでユーザー操作のフィードバックを強化
 
 ## 📸 Screenshots
-Login Page
-<img src="./login_page.png" width="45%">
 
 Home Page
 <img src="./home_page.png" width="45%">
+
+Contact Page
+<img src="./contact_page.png" width="45%">
+
+About Page
+<img src="./about_page.png" width="45%">
+
+Login Page
+<img src="./login_page.png" width="45%">
+
+
 
 
 
